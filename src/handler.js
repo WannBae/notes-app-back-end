@@ -1,5 +1,5 @@
 const {nanoid}=require('nanoid');
-const notes=require('./notes.js')
+const notes=require('./notes')
 const getAllNotesHandler=()=>({
     status:'success',
     data:{
